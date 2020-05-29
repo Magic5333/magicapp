@@ -9,20 +9,23 @@
 	"url" : "https://magic5333.github.io/magicapp/",
 	"icons" : [
 		{
-			"src": "https://bobyme.site/1.png",
+			"src": "/1.png",
 			"sizes": "44x44"
 		},
 		{
-			"src": "https://bobyme.site/1.png",
+			"src": "/1.png",
 			"sizes": "48x48"
 		},
 		{
-			"src": "https://bobyme.site/1.png",
-			"sizes": "144x144",
-			"purpose": "any maskable"
+			"src": "/1.png",
+			"sizes": "144x144"
 		},
 		{
-			"src": "https://bobyme.site/1.png",
+			"src": "/2.png",
+			"sizes": "180x180"
+		},
+		{
+			"src": "/1.png",
 			"sizes": "512x512"
 		}],
 	"screenshots" : [],
