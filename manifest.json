@@ -27,5 +27,6 @@
 	"screenshots" : [],
 	"scope" : "ddds",
 	"background_color" : "#c46e6e",
+	"theme_color" : "#cc6e6f",
 	"generated" : ""
 }
