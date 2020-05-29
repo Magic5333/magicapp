@@ -22,7 +22,8 @@
 		},
 		{
 			"src": "/2.png",
-			"sizes": "180x180"
+			"sizes": "180x180",
+			"purpose": "any maskable"
 		},
 		{
 			"src": "/1.png",
