@@ -9,24 +9,24 @@
 	"url" : "https://magic5333.github.io/magicapp/",
 	"icons" : [
 		{
-			"src": "/1.png",
+			"src": "./1.png",
 			"sizes": "44x44"
 		},
 		{
-			"src": "/1.png",
+			"src": "./1.png",
 			"sizes": "48x48"
 		},
 		{
-			"src": "/1.png",
+			"src": "./1.png",
 			"sizes": "144x144"
 		},
 		{
-			"src": "/2.png",
+			"src": "./2.png",
 			"sizes": "180x180",
 			"purpose": "any maskable"
 		},
 		{
-			"src": "/1.png",
+			"src": "./1.png",
 			"sizes": "512x512"
 		}],
 	"screenshots" : [],
