@@ -1,0 +1,31 @@
+{
+	"name" : "Magic App",
+	"short_name" : "lol",
+	"description" : "Some words",
+	"start_url" : "https://bobyme.site/",
+	"display" : "standalone",
+	"orientation" : "portrait",
+	"lang" : "English",
+	"url" : "https://bobyme.site",
+	"icons" : [
+		{
+			"src": "https://bobyme.site/1.png",
+			"sizes": "44x44"
+		},
+		{
+			"src": "https://bobyme.site/1.png",
+			"sizes": "48x48"
+		},
+		{
+			"src": "https://bobyme.site/1.png",
+			"sizes": "144x144"
+		},
+		{
+			"src": "https://bobyme.site/1.png",
+			"sizes": "512x512"
+		}],
+	"screenshots" : [],
+	"scope" : "ddds",
+	"background_color" : "#c46e6e",
+	"generated" : ""
+}
