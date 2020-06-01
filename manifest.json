@@ -2,7 +2,7 @@
 	"name" : "Magic App",
 	"short_name" : "lol",
 	"description" : "Some words",
-	"start_url" : "https://magic5333.github.io/magicapp/magicapp.html",
+	"start_url" : "https://magic5333.github.io/magicapp/startapp.html",
 	"display" : "standalone",
 	"orientation" : "portrait",
 	"lang" : "English",
