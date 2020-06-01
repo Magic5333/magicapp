@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Java Virtual Machine</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script type="module">
+		
+
+import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
+	</script>
+
+	<link rel="manifest" href="manifest.json">
+	<meta name="application-name" content="DR">
+<meta name="apple-mobile-web-app-title" content="DR">
+<meta name="msapplication-starturl" content="./">
+<meta name="msapplication-navbutton-color" content="#E6E6FA">
+<meta name="theme-color" content="#E6E6FA">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="apple-touch-icon" sizes="180x180" href="./2.png">
+
+
+
+<script src="pwabuilder-sw.js"></script>
+
+
+<script>
+	
+    let deferredPrompt = null;
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Prevent Chrome 67 and earlier from automatically showing the prompt
+  e.preventDefault();
+  // Stash the event so it can be triggered later.
+  deferredPrompt = e;
+});
+
+async function install() {
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    console.log(deferredPrompt)
+    deferredPrompt.userChoice.then(function(choiceResult){
+
+      if (choiceResult.outcome === 'accepted') {
+      console.log('Your PWA has been installed');
+    } else {
+      console.log('User chose to not install your PWA');
+    }
+
+    deferredPrompt = null;
+
+    });
+
+ 
+  }
+}
+</script>
+
+</head>
+
+<body>
+	<script
+  type="module"
+  src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"
+></script>
+<pwa-install></pwa-install>
+
+
+<div class="main">
+	<div class="content">
+		<main class="page">
+			<div class="content-cl">
+				<div class="page-content">
+					<div class="center_part ">
+		<div class="news_body clear" style="padding-top:0px">
+						
+			<div class="flex" id="pub_top_flex"></div>
+			
+		
+
+		
+		
+
+		
+		
+
+		
+		<div itemscope="" class="js-mediator-article"><div id="top_news"><div class="news_body_lead clear" id="article_lead" style="padding: 0px;"><h1 style="float: left; padding: 10px 10px 0 10px; width: 85%;"> <span class="mw-headline">Java Virtual Machine</span></h1><div style="background: #B62828 none repeat scroll 0 0; color: #fff; float: right; padding: 5px; position: relative; top: 0;">Продукт</div><div style="clear:both; padding: 5px 13px;"></div></div></div>
+ 
+
+<div itemprop="content" class="pub_body">
+<p>Java Virtual Machine (сокращенно Java VM, JVM) — виртуальная машина Java — основная часть исполняющей системы Java, так называемой Java Runtime Environment (JRE). Виртуальная машина Java интерпретирует и исполняет Байт-код Java, предварительно созданный из исходного текста Java-программы компилятором Java (javac). JVM может также использоваться для выполнения программ, написанных на других языках программирования. Например, исходный код на языке Ada может быть откомпилирован в байт-код Java, который затем может выполниться с помощью JVM.
+</p>
+<p>Java Virtual Machine<a href="apps://dplnk/4yFo4Rn">DeepLink</a></p>
+<p>Java Virtual Machine<a href="app://dlbro/4yFo4Rn">DeepLink</a></p>
+<p>Java Virtual Machine<a href="tamtam://chat/chatname">sssssss</a></p>
+
+<p style="text-align: center"><button style="background-color: #EEF; padding: 25px" onclick="install()">Download App</button></p>
+
+<p>“Close to the metal” означает ручное управление (из кода) памятью операционной системы. В теории, программисты могут выжать больше производительности из своих программ, определяя сколько памяти используется и в какой момент ее освобождать.</p>
+<p>Java байт-код (Java bytecode) – машинно-независимый код, который генерирует Java-компилятор. Байт-код выполняется Java-интерпретатором. Виртуальная машина Java полностью стековая: не требуется сложная адресация ячеек памяти и большое количество регистров.</p>
+<p>Каждый элемент пула констант начинается с однобайтового тега, определяющего его тип. Это позволяет JVM понять, как правильно обработать идущую далее константу. </p>
+
+
+</div></div>		
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+		
+
+ 		
+	
+
+
+		
+
+
+	
+
+
+</div>  
+
+
+
+	
+
+
+
+		
+
+
+
+	</div>
+				</div>
+			</div>
+		</main>
+	</div>
+</div>
+
+</body>
+</html>
